@@ -1,5 +1,4 @@
 // EXAMINE THE DOCUMENT OBJECT
-
 // console.dir(document);
 // console.log(document.domain);
 // console.log(document.URL);
@@ -43,5 +42,36 @@
 //   items[i].style.fontWeight = "bold";
 // }
 // items.style.fontWeight = "bold";
-var li = document.getElementsByTagName("li");
-console.log(li);
+// var li = document.getElementsByTagName("li");
+// console.log(li);
+
+// QUERYSELECTOR //
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px #ccc';
+
+// var input = document.querySelector('input');
+// input.value = 'Hello World';
+
+// var submit = document.querySelector('input[type = "submit"]');
+// submit.value = 'SEND';
+
+// var item = document.querySelector('.list-group-item');
+// item.style.color = 'red';
+
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'blue';
+
+// var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+// secondItem.style.color = 'coral';
+
+//QUERY SELECTOR ALL//
+// var titles = document.querySelectorAll('.title');
+
+// console.log(titles);
+// titles[0].textContent = 'Hello';
+
+var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+secondItem.style.backgroundColor = 'green';
+
+var thirdItem = document.querySelector('.list-group-item:nth-child(3)');
+thirdItem.style.display = 'none';
